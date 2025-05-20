@@ -124,10 +124,10 @@ The program uses ANSI escape sequences to clear the console. If the visualizatio
 ## Educational Value
 
 This visualization tool helps in understanding:
-- How different sorting algorithms work internally
-- The number of comparisons and swaps different algorithms require
-- Time complexity differences through direct observation
-- Trade-offs between simple and advanced sorting algorithms
+- How different sorting algorithms work internally?
+- The number of comparisons and swaps different algorithms require?
+- Time complexity differences through direct observation?
+- Trade-offs between simple and advanced sorting algorithms?
 
 ## Implementation Details
 
