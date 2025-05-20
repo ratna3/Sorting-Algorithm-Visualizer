@@ -4,13 +4,14 @@ This program provides a console-based visualization of various sorting algorithm
 
 ## Overview
 
-The Sorting Algorithm Visualizer demonstrates six popular sorting algorithms:
+The Sorting Algorithm Visualizer demonstrates seven popular sorting algorithms:
 1. Bubble Sort
 2. Selection Sort
 3. Insertion Sort
 4. Merge Sort
 5. Quick Sort
 6. Heap Sort
+7. Radix Sort
 
 Each algorithm is visualized in the console using ASCII graphics, with statistics tracking comparisons, swaps, and operations performed during the sorting process.
 
@@ -27,7 +28,8 @@ Sorting_Algorithm_Visualizer/
 │   ├── InsertionSort.java        # Insertion sort implementation
 │   ├── MergeSort.java            # Merge sort implementation
 │   ├── QuickSort.java            # Quick sort implementation
-│   └── HeapSort.java             # Heap sort implementation
+│   ├── HeapSort.java             # Heap sort implementation
+│   └── RadixSort.java            # Radix sort implementation
 └── visualization/                # Package for visualization components
     ├── Bar.java                  # Represents a visual bar in the chart
     ├── LineDrawing.java          # Line drawing algorithm
@@ -67,13 +69,14 @@ java SortVisualizer
 - Generate a random array of your desired size and range
 
 ### 2. Sorting Algorithm Selection
-Choose from six different sorting algorithms to visualize:
+Choose from seven different sorting algorithms to visualize:
 - Bubble Sort: Simple comparison-based algorithm that repeatedly steps through the list
 - Selection Sort: Simple in-place comparison sort that finds the minimum element
 - Insertion Sort: Builds sorted array one item at a time
 - Merge Sort: Efficient divide-and-conquer algorithm
 - Quick Sort: Highly efficient divide-and-conquer algorithm
 - Heap Sort: Comparison-based sort that uses a binary heap data structure
+- Radix Sort: Non-comparative sorting algorithm that sorts data based on individual digits
 
 ### 3. Animation Speed Control
 Adjust the delay between steps to control the visualization speed.
@@ -87,7 +90,7 @@ Adjust the delay between steps to control the visualization speed.
 ## Controls and Usage
 
 1. When prompted, choose how to input your array (custom, sample, or random)
-2. Select a sorting algorithm to visualize (1-6)
+2. Select a sorting algorithm to visualize (1-7)
 3. Set the animation delay (in milliseconds)
 4. Watch the sorting process in action
 5. After completion, view the sorted array
